@@ -14,14 +14,13 @@ This started as a plain Python script using `pathlib` and exception handling to 
 
 ## ✨ Features
 
-| Operation | What it does |
+Operation	What it does
 
-| 📄 **Create** | Write a new file with content typed directly in the UI |
-| 👀 **Read** | Preview any file's content, size, and last-modified time |
-| ✏️ **Update** | Rename, append to, or fully overwrite a file |
-| 🗑️ **Delete** | Remove a file, gated behind a required confirmation checkbox |
-| 📁 **Explorer** | Browse every file in the workspace at a glance |
-
+📄 Create	Write a new file with content typed directly in the UI
+👀 Read	Preview any file's content, size, and last-modified time
+✏️ Update	Rename, append to, or fully overwrite a file
+🗑️ Delete	Remove a file, gated behind a required confirmation checkbox
+📁 Explorer	Browse every file in the workspace at a glance
 All operations are sandboxed to a local `file_manager_workspace/` folder — the app can never touch files outside it.
 
 ## 🛠️ Built With
